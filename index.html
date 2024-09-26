@@ -1,0 +1,157 @@
+<html>
+    <head>
+       Sample Survey Form  
+       <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body style="background-color: white;">
+    <br/>
+    <br/>
+     <form action="" method ="post"></form>
+     <label for="name"><b>Name<span style="color: red;">&#8727</span></b></label>
+     <br/>
+     <input  type=text id="name" name="name" size="25" required/>
+     <input  type=text id="name" name="name" size="24" required/>
+     <br/>
+     <a>First &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Last</a>
+     
+     <br/>
+     <br/>
+     <label for="email"><b>E-Mail<span style="color: red;">&#8727</span></b></label>
+     <br/>
+     <input type="email" id="email" name="email" size="52" required/>
+     <br/>
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      .star-rating {
+        direction: rtl;
+        display: inline-block;
+      }
+      .star-rating input[type="radio"] {
+        display: none;
+      }
+      .star-rating label {
+        font-size: 2rem;
+        color: #ddd;
+        cursor: pointer;
+      }
+      .star-rating input[type="radio"]:checked ~ label,
+      .star-rating label:hover,
+      .star-rating label:hover ~ label {
+        color: #ffc107;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <p><b>Your Experience<span style="color: red;">&#8727</span></b></p rate>
+      <div class="star-rating">
+        <input type="radio" id="5-stars" name="rating" value="5" />
+        <label for="5-stars" class="fa fa-star"></label>
+        <input type="radio" id="4-stars" name="rating" value="4" />
+        <label for="4-stars" class="fa fa-star"></label>
+        <input type="radio" id="3-stars" name="rating" value="3" />
+        <label for="3-stars" class="fa fa-star"></label>
+        <input type="radio" id="2-stars" name="rating" value="2" />
+        <label for="2-stars" class="fa fa-star"></label>
+        <input type="radio" id="1-star" name="rating" value="1" />
+        <label for="1-star" class="fa fa-star"></label>
+      </div>
+    </div>
+    <p>Overall, How would you rate your experience with us?</p>
+     <p><b>How satisfied are you with <span style="color: red;">&#8727</span></b></p required>
+     <table class="table" >
+        <thead>
+            <div class="t">
+          <tr>
+            <th  scope="col" style="background-color: white;width:200px;font-weight:lighter;" ></th>
+            <th  scope="col" style="background-color: white; width:200px; font-weight:lighter;">Very Unsatisfied</th>
+            <th scope="col" style="background-color: white;width:200px;font-weight:lighter;">Unsatisfied</th>
+            <th scope="col" style="background-color: white;width:200px;font-weight:lighter;" >Neutral</th>
+            <th scope="col" style="background-color: white;width:200px;font-weight:lighter;">Satisfield</th>
+            <th scope="col" style="background-color: white;width:200px;font-weight:lighter;">Very satisfied</th>
+          </tr>
+        
+        </thead>
+        <tbody >
+            
+            <tr>
+              <th scope="row"style="text-align: start;width:200px;font-weight:lighter;">Purchase</th>
+              <td style="text-align: center;"><input type="radio" id="1stars" name="1rating"/></td>
+              <td style="text-align: center;"><input type="radio" id="1stars" name="1rating"/></td>
+              <td style="text-align: center;"><input type="radio" id="1stars" name="1rating"/></td>
+              <td style="text-align: center;"><input type="radio" id="1stars" name="1rating"/></td>
+              <td style="text-align: center;"><input type="radio" id="1stars" name="1rating"/></td>
+            </tr>
+            <tr>
+              <th scope="row"style="text-align: start;width:200px;font-weight:lighter;">Service</th>
+              <td style="text-align: center;"><input type="radio" id="2stars" name="2rating"/></td>
+              <td style="text-align: center;"><input type="radio" id="2stars" name="2rating"/></td>
+              <td style="text-align: center;"><input type="radio" id="2stars" name="2rating"/></td>
+              <td style="text-align: center;"><input type="radio" id="2stars" name="2rating"/></td>
+              <td style="text-align: center;"><input type="radio" id="2stars" name="2rating"/></td>
+            </tr>
+            <tr>
+              <th scope="row"style="text-align: start;width:200px;font-weight:lighter;">Company Overall</th>
+              <td style="text-align: center;"><input type="radio" id="3stars" name="3rating"/></td>
+              <td style="text-align: center;"><input type="radio" id="3stars" name="3rating"/></td>
+              <td style="text-align: center;"><input type="radio" id="3stars" name="3rating"/></td>
+              <td style="text-align: center;"><input type="radio" id="3stars" name="3rating"/></td>
+              <td style="text-align: center;"><input type="radio" id="3stars" name="3rating"/></td>
+            </tr>
+        </div>
+          </tbody>
+        </table>
+        <p><b>How likely are you to <span style="color: red;">&#8727</span></b> </p required>
+        <table class="tab">
+        <thead>
+            <div class="ta">
+            <tr>
+              <th  scope="col" style="background-color: white;width:200px;" ></th>
+              <th scope="col" style="background-color: white;width:200px;font-weight:lighter;">Very Unlikely</th>
+              <th scope="col" style="background-color: white;width:200px;font-weight:lighter;">Unlikey</th>
+              <th scope="col" style="background-color: white;width:200px;font-weight:lighter;" >Neutral</th>
+              <th scope="col" style="background-color: white;width:200px;font-weight:lighter;">likely</th>
+              <th scope="col" style="background-color: white;width:200px;font-weight:lighter;">Very likely</th>
+            </tr>
+          
+          </thead>
+          <tbody >
+              
+              <tr>
+                <th scope="row"style="text-align: start;width:200px;font-weight:lighter;">buy from us again</th>
+                <td style="text-align: center;"><input type="radio" id="4stars" name="4rating"/></td>
+                <td style="text-align: center;"><input type="radio" id="4stars" name="4rating"/></td>
+                <td style="text-align: center;"><input type="radio" id="4stars" name="4rating"/></td>
+                <td style="text-align: center;"><input type="radio" id="4stars" name="4rating"/></td>
+                <td style="text-align: center;"><input type="radio" id="4stars" name="4rating"/></td>
+              </tr>
+              <tr>
+                <th scope="row"style="text-align: start;width:200px;font-weight:lighter;">Recommend our products to others </th>
+                <td style="text-align: center;"><input type="radio" id="5stars" name="5rating"/></td>
+                <td style="text-align: center;"><input type="radio" id="5stars" name="5rating"/></td>
+                <td style="text-align: center;"><input type="radio" id="5stars" name="5rating"/></td>
+                <td style="text-align: center;"><input type="radio" id="5stars" name="5rating"/></td>
+                <td style="text-align: center;"><input type="radio" id="5stars" name="5rating"/></td>
+              </tr>
+              <tr>
+                <th scope="row"style="text-align: start;width:200px;font-weight:lighter;">Recommend our company to others</th>
+                <td style="text-align: center; "><input type="radio" id="6stars" name="6rating"/></td>
+                <td style="text-align: center;"><input type="radio" id="6stars" name="6rating"/></td>
+                <td style="text-align: center;"><input type="radio" id="6stars" name="6rating"/></td>
+                <td style="text-align: center;"><input type="radio" id="6stars" name="6rating"/></td>
+                <td style="text-align: center;"><input type="radio" id="6stars" name="6rating"/></td>
+              </tr>
+            </div>
+              
+            </tbody>
+          </table>
+          <p><strong>Addtional comments or suggestions</strong></p>
+          <textarea cols="150" rows="10"></textarea>
+          <br/>
+          <br/>
+          <button type="button" class="btn btn-success">Submit</button>
+    </body>
+</html> 
